@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "./styles.css"
 import { NewTodoForm } from "./NewTodoForm"
+import { TodoList } from "./ToDoList"
 
 
 export default function App() {
@@ -40,6 +41,7 @@ export default function App() {
     <>
       <NewTodoForm addTodo={addTodo} />
       <h1 className="header">Todo List</h1>
+      <TodoList/>
     </>
   )
 }
