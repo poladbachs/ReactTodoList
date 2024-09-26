@@ -3,6 +3,8 @@ import "./styles.css"
 import { NewTodoForm } from "./NewTodoForm"
 import { TodoList } from "./ToDoList"
 
+import ReactLogo from "./assets/react.svg"
+
 
 export default function App() {
   const [todos, setTodos] = useState(() => {
@@ -48,6 +50,13 @@ export default function App() {
 
   return (
     <>
+      <div className="logo-container">
+        <img 
+          src={ReactLogo} 
+          alt="React Logo" 
+          className="react-logo" 
+        />
+      </div>
       <NewTodoForm addTodo={addTodo} />
       <h1 className="header">Todo List</h1>
       <TodoList 

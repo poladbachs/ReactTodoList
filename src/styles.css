@@ -138,3 +138,27 @@ body {
 .list li:has(input:checked) label:hover::before {
     background: hsl(200, 100%, 30%);
 }
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.react-logo {
+    width: 100px;
+    margin-bottom: 20px;
+    animation: rotate 10s linear infinite;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
