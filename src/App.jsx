@@ -6,6 +6,19 @@ import { NewTodoForm } from "./NewTodoForm"
 export default function App() {
   const [todos, setTodos] = useState([])
 
+  function addTodo(title) {
+    setTodos(currentTodos => {
+      return [
+        ...currentTodos,
+        {
+          id: crypto.randomUUID(),
+          title,
+          completed: false
+        }
+      ]
+    })
+  }
+
   function toggleTodo(id, completed) {
     setTodos(currentTodos => {
       return currentTodos.map(todo => {
@@ -24,11 +37,11 @@ export default function App() {
   }
 
   return (
-    <> 
-      <NewTodoForm />
+    <>
+      <NewTodoForm addTodo={addTodo} />
       <h1 className="header">Todo List</h1>
-      {todos.length === 0 && "No Todos"}
       <ul className="list">
+        {todos.length === 0 && "No Todos"}
         {todos.map(todo => {
           return (
             <li key={todo.id}>
