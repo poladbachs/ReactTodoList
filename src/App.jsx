@@ -27,7 +27,7 @@ export default function App() {
     setTodos(currentTodos => {
       return currentTodos.map(todo => {
         if (todo.id === id) {
-          return {...todo, completed}
+          return { ...todo, completed }
         }
         return todo
       })
@@ -67,7 +67,10 @@ export default function App() {
                 />
                 {todo.title}
               </label>
-              <button className="btn btn-danger">Delete</button>
+              <button
+                onClick={() => deleteTodo(todo.id)}
+                className="btn btn-danger">Delete
+              </button>
             </li>
           )
         })}
