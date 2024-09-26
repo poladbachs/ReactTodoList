@@ -6,7 +6,10 @@ export function TodoList({ todos }) {
             {todos.length === 0 && "No Todos"}
             {todos.map(todo => {
                 return (
-                    <TodoItem />
+                    <TodoItem 
+                        {...todo} 
+                        key={todo.id} 
+                    />
                 )
             })}
         </ul>
