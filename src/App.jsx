@@ -19,9 +19,9 @@ export default function App() {
         }
       ]
     })
-  }
 
-  console.log(todos)
+    setNewItem("")
+  }
 
   return (
     <>
