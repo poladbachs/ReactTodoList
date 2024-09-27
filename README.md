@@ -2,7 +2,13 @@
 
 ## Project Overview
 
-This is a simple **Todo List** application built using **React**. It allows users to add, complete, and delete tasks, with data persistence enabled through localStorage. The project is designed to explore core React concepts such as JSX, state management, breaking down the UI into reusable components, and the use of hooks like `useState` and `useEffect`.
+This is a **Todo List** application built using **React**. It allows users to add, complete, and delete tasks, with data persistence enabled through localStorage. The project is designed to explore core React concepts such as JSX, state management, breaking down the UI into reusable components, and the use of hooks like `useState` and `useEffect`.
+
+## Demo
+
+A brief demo is included, showcasing the main functionality of the React Todo List app. It highlights adding, completing, and deleting todos, along with the persistent data even after the page reload.
+
+![ReactTodoList](https://github.com/user-attachments/assets/02d97e53-e0cf-4d0b-94f9-6653bf2c435e)
 
 ## Features
 
@@ -29,9 +35,3 @@ The primary goal of this project was to dive deeper into **React** and its ecosy
 - **Lifecycle management**: Leveraging `useEffect` to synchronize state with localStorage.
 
 The Todo List is a perfect beginner project to grasp these core concepts and start developing in React with a focus on reusability, modularity, and component-driven architecture.
-
-## Demo
-
-A brief demo is included, showcasing the main functionality of the React Todo List app. It highlights adding, completing, and deleting todos, along with the persistent data even after the page reload.
-
-![ReactTodoList](https://github.com/user-attachments/assets/02d97e53-e0cf-4d0b-94f9-6653bf2c435e)
