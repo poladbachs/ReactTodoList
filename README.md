@@ -8,7 +8,7 @@ This is a **Todo List** application built using **React**. It allows users to ad
 
 A brief demo is included, showcasing the main functionality of the React Todo List app. It highlights adding, completing, and deleting todos, along with the persistent data even after the page reload.
 
-![ReactTodoList](https://github.com/user-attachments/assets/02d97e53-e0cf-4d0b-94f9-6653bf2c435e)
+![ReactTodoList](https://github.com/user-attachments/assets/0b146af0-c0c8-4163-8984-a3371ed7df9f)
 
 ## Features
 
