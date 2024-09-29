@@ -1,4 +1,4 @@
-# React Todo List Project
+# React Todo List
 
 ## Project Overview
 
