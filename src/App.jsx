@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import "./styles.css"
 import { NewTodoForm } from "./NewTodoForm"
-import { TodoList } from "./ToDoList"
+import { TodoList } from "./TodoList"
 
 import ReactLogo from "./assets/react.svg"
 
